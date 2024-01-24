@@ -1,0 +1,33 @@
+h4{
+    margin-right:10px;
+    text-align-last: right;
+    font-family:sans-serif;
+    color:balck;
+
+}
+body{
+    background-image: url(BG.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    margin-top:20px;
+    margin-left: 42%;
+    margin-right:60%;
+}
+h1{
+    font-family: Brush Script MT;
+    color: #ffb703;
+}
+fieldset{
+    font-family: Georgia;
+    font-size: 20px;
+}
+button{
+    margin-top:10px;
+}
+a{
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,27 @@
+body{
+    background-image: url(BG.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{animation:slidein 2s infinite;}
+@keyframes slidein{
+    -50%{transform: translateX(0%);}
+    0%{transform: translateX(-100%);}   
+}
+.img2{animation:bounce 2s infinite;}
+@keyframes bounce{
+    0%{transform: translateY(100px);}
+    100%{transform: translateY(30px);}
+}
+.img3{animation:slideout 2s infinite;}
+@keyframes slideout{
+    -50%{transform: translateX(0%);}
+    0%{transform: translateX(100%);}
+}
+.navbar-inverse{
+    background-color:gray;
+    font-size:20px;
+}
+.job{
+    margin-top: 90px;
+}

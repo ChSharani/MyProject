@@ -1,0 +1,38 @@
+body{
+    background-image: url(BG.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    margin-top: 5px;
+    height: 300px;
+  width: 300px;
+  border-radius: 10px;;
+    border: 5px solid cadetblue;
+    padding: 10px;
+    
+}
+img:hover{
+    opacity:0.5;
+}
+p{
+    font-family: sans-serif;
+    font-size:15px;
+}
+.navbar-inverse{
+    background-color:gray;
+    font-size:20px;
+}
+h5{
+     margin-right:10px;
+    text-align-last: right;
+}
+a{
+    text-decoration: none;
+    font-size:20px;
+    color:darkblue;
+}
+ul.cus {
+  display: inline-block;
+  text-align: left;
+}
