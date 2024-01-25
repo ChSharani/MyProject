@@ -1,11 +1,11 @@
-var age=0;
+var age=18;
 
 function img1(){
-    age=age-10;
+    age=age-1;
     document.getElementById("box").textContent=age;
 }
 function img2(){
-    age=age+10;
+    age=age+1;
     document.getElementById("box").textContent=age;
 }
 function myFunction() {
